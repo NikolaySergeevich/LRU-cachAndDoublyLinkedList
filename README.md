@@ -5,8 +5,8 @@
 - Len() int // длина списка
 - Front() *ListItem // первый элемент списка
 - Back() *ListItem // последний элемент списка
-- PushFront(v interface{}) *ListItem // добавить значение в начало
-- PushBack(v interface{}) *ListItem // добавить значение в конец
+- PushFront(k, v interface{}) *ListItem // добавить значение в начало
+- PushBack(k, v interface{}) *ListItem // добавить значение в конец
 - Remove(i *ListItem) // удалить элемент
 - MoveToFront(i *ListItem) // переместить элемент в начало
 
